@@ -1,0 +1,19 @@
+{
+  "name": "p5js-vite",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@magic-circle/editor": "^0.1.5",
+    "prettier": "^2.7.1",
+    "vite": "^3.0.0"
+  },
+  "dependencies": {
+    "@magic-circle/client": "^0.1.5",
+    "p5": "^1.4.1",
+    "p5js-wrapper": "^1.2.3"
+  }
+}
