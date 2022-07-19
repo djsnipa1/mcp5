@@ -11,6 +11,8 @@
 		pkgs.nodejs-18_x
 			pkgs.nodePackages.pnpm
 			pkgs.nodePackages.jsdoc
-      
+		pkgs.gtk3
+		pkgs.gobject-introspection
+		pkgs.libglibutil
     ];
 }

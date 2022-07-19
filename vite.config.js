@@ -9,15 +9,15 @@ dns.setDefaultResultOrder('verbatim')
 module.exports = defineConfig({
   // server: {
   // },
-  // preview: {
-  //   host: "0.0.0.0",
-  //   port: 5000
-  // },
-  // server: {
+  preview: {
+    host: "0.0.0.0",
+    port: 5000
+  },
+  server: {
     // origin: 'http://0.0.0.0:8000',
-    // host: "0.0.0.0",
-    // port: 3000
-  // },
+    host: "0.0.0.0",
+    port: 3000
+  },
   
   build: {
     rollupOptions: {
