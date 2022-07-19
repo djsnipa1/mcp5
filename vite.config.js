@@ -1,3 +1,15 @@
+export default {
+  server: {
+    host: '0.0.0.0',
+    hmr: {
+      clientPort: 443,
+    }
+  }
+}
+
+/* original config
+// it works but turns out I didn't need all the other options
+
 // vite.config.js
 const { resolve } = require('path')
 const { defineConfig } = require('vite')
@@ -5,7 +17,6 @@ import dns from 'dns'
 
 dns.setDefaultResultOrder('verbatim')
 
-/** @type {import('vite').UserConfig} */
 module.exports = defineConfig({
   // server: {
   // },
@@ -16,7 +27,10 @@ module.exports = defineConfig({
   server: {
     // origin: 'http://0.0.0.0:8000',
     host: "0.0.0.0",
-    port: 3000
+    port: 3000,
+    hmr: {
+      clientPort: 443,
+    }
   },
   
   build: {
@@ -29,4 +43,4 @@ module.exports = defineConfig({
     }
   }
 })
-
+*/

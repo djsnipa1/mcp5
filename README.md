@@ -1,5 +1,7 @@
 # P5.js-vite Starter Template 🚀
 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fdjsnipa1%2Fmcp5&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23FFFFFF&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 [Vite](https://vitejs.dev/) starter template to scaffold a new [p5.js](https://p5js.org) project.

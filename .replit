@@ -9,7 +9,7 @@ hidden=[".config"]
 run = "pnpm run dev --host"
 
 [env]
-XDG_CONFIG_HOME = "/home/runner/.config"
+XDG_CONFIG_HOME = "/home/runner/$REPL_SLUG/.config"
 
 # hosting is currently hardcoded for this language
 # [hosting]
@@ -18,6 +18,12 @@ XDG_CONFIG_HOME = "/home/runner/.config"
 
 [nix]
 channel = "unstable"
+
+[languages.vim]
+pattern = "**/*.vim"
+  [languages.vim.languageServer]
+  start = ["vim-language-server", "--stdio"]
+
 
 [languages.html]
 pattern = "**/*.html"

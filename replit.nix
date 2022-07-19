@@ -1,6 +1,7 @@
 { pkgs }: {
     deps = [
 		pkgs.most
+		pkgs.less
 		pkgs.man-db
 		pkgs.neovim-unwrapped
 		pkgs.gh
@@ -11,8 +12,12 @@
 		pkgs.nodejs-18_x
 			pkgs.nodePackages.pnpm
 			pkgs.nodePackages.jsdoc
-		pkgs.gtk3
-		pkgs.gobject-introspection
-		pkgs.libglibutil
+      pkgs.nodePackages.neovim
+      pkgs.nodePackages.vim-language-server
+		pkgs.python310
+      pkgs.python310Packages.pynvim
+    pkgs.terminal-colors
+
+      
     ];
 }
